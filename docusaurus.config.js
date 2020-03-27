@@ -36,11 +36,11 @@ module.exports = {
           items: [
             {
               label: 'HTML 教程',
-              to: 'https://www.w3school.com.cn/html/index.asp',
+              href: 'https://www.w3school.com.cn/html/index.asp',
             },
             {
               label: 'CSS 教程',
-              to: 'https://www.w3school.com.cn/css/index.asp',
+              href: 'https://www.w3school.com.cn/css/index.asp',
             },
           ],
         },
