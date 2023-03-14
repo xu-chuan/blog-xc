@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'My Site',
+  title: 'blog-xc',
   tagline: 'The tagline of my site',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -10,7 +10,7 @@ module.exports = {
     navbar: {
       title: 'My Blog',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Logo',
         src: 'img/logo.svg',
       },
       links: [

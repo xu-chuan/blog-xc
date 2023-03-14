@@ -1,10 +1,10 @@
 ---
 id: hello-world
 title: Hello
-author: 章鱼哥
+author: xjc
 author_title: Maintainer of Docusaurus
 author_url: https://github.com/
-author_image_url: https://static.easyicon.net/preview/106/1066524.gif
+author_image_url: https://avatars.githubusercontent.com/u/59386776?v=4
 tags: [hello, docusaurus]
 ---
 
