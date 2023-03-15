@@ -1,26 +1,42 @@
 module.exports = {
   title: "blog-xc",
-  tagline: "The tagline of my site",
+  tagline: "Memory is like an orgasm. It’s a lot better if you don’t have to fake it.",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
   favicon: "img/favicon.ico",
-  organizationName: "xxx", // Usually your GitHub org/user name.
+  organizationName: "xc", // Usually your GitHub org/user name.
   projectName: "docusaurus", // Usually your repo name.
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+  // Even if you don't use internalization, you can use this field to set useful
+  // metadata like html lang. For example, if your site is Chinese, you may want
+  // to replace "en" with "zh-Hans".
+  i18n: {
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans','en'],
+  },
   themeConfig: {
+    image: 'img/king.jpg',
     navbar: {
       title: "My Blog",
       logo: {
         alt: "Logo",
         src: "img/logo.svg",
       },
-      links: [
+      items: [
+        // {
+        //   to: "docs/doc1",
+        //   activeBasePath: "docs",
+        //   label: "Docs",
+        //   position: "left",
+        // },
         {
-          to: "docs/doc1",
-          activeBasePath: "docs",
-          label: "Docs",
-          position: "left",
+          type: 'doc',
+          docId: 'docusaurus/intro',
+          position: 'left',
+          label: 'Docs',
         },
-        // { to: "blog", label: "Blog", position: "right" },
+        { to: "blog", label: "Blog", position: "left" },
         {
           href: "https://github.com",
           label: "GitHub",
@@ -61,10 +77,6 @@ module.exports = {
           title: "Social",
           items: [
             {
-              label: "Blog",
-              to: "blog",
-            },
-            {
               label: "GitHub",
               href: "https://github.com/facebook/docusaurus",
             },
@@ -91,6 +103,9 @@ module.exports = {
         //   path: "./blog",
         //   routeBasePath: "/",
         // },
+        blog: {
+          showReadingTime: true,
+        },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },

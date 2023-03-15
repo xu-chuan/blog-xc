@@ -1,5 +1,5 @@
 ---
-id: hello-world
+slug: hello-world
 title: Hello
 author: xjc
 author_title: Maintainer of Docusaurus
