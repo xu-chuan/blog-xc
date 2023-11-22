@@ -2,7 +2,9 @@
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
-预览网址https://blog-xc.vercel.app/
+# 文章来源
+
+[前端精读](https://github.com/ascoders/weekly)
 
 ### Installation
 
